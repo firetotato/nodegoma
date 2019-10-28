@@ -23,3 +23,6 @@ server.on('request', function(req, res){
 server.on('close', function(){
     console.log('서버가 종료됩니다.');
 })
+
+//test5.js와 같은 문제.
+//이미지 파일을 넣고나서부터 localhost:3000이 연결이 거부됌.
